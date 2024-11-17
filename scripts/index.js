@@ -15,7 +15,7 @@ function generateProductCards(products) {
           <div class="col-md-4">
             <div class="card mb-4">
               <a href="dettaglio.html?id=${product._id}">
-                <img src="${product.imageUrl}" class="card-img-top" alt="${product.name}">
+                <img src="${product.imageUrl}" class="card-img-top" style="height:350px" alt="${product.name}">
               </a>
               <div class="card-body">
                 <h5 class="card-title">${product.name}</h5>
